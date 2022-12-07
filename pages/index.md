@@ -9,6 +9,11 @@ tags:
 ---
 
 wyatt
+
+day.0 i spawned in my new world
+
+
+
 ## day.1
 
 its night im in my house wich is underground and im doing great
