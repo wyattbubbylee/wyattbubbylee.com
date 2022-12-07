@@ -49,7 +49,7 @@ these are my new tools
 
 
 ## day.7
-this is my crops
+this is my crops i put glass ubove my crops
 
 ![](/my-crops.png)
 
