@@ -54,7 +54,7 @@ this is my crops i put glass ubove my crops
 ![](/my-crops.png)
 
 day.8
-
+a banner is something that you can customize your house with 
 ![](/banner.png)
 
 day.9
