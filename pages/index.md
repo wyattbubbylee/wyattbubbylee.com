@@ -48,3 +48,8 @@ im choping some wood so
 
 
 ## day.7
+![]](/my-crops.png)
+
+day.8
+
+
