@@ -67,8 +67,16 @@ it's night i'm my big house
 
 day.10
 I was in my inventory the whole day
-![](/my.png)
+![](/my.png
+)
 day.11
+I was in my inventory the whole day
+
+
+![](/my.png)
+
+
+day.12 
 I was in my inventory the whole day
 
 ![](/my.png)
