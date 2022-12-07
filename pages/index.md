@@ -10,7 +10,7 @@ tags:
 
 wyatt
 
-day.0 i spawned in my new world
+day.0 i spawned in my new minecraft world
 
 
 
