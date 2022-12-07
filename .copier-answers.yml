@@ -1,0 +1,11 @@
+# Changes here will be overwritten by Copier
+_commit: v1
+_src_path: git+https://github.com/WaylonWalker/markata-blog-starter
+author_email: wyatt.lee.walker@gmail.com
+author_fullname: Wyatt Walker
+author_twitter: ''
+description: Wyatt's Minecraft Documentary
+project_name: minecraft-documentary-wyatt
+python_package_import_name: minecraft_documentary_wyatt
+url: https://wyatt.waylonwalker.com
+
