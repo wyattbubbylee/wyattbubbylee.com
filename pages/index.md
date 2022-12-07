@@ -44,11 +44,11 @@ im choping some wood so
 
 ## day.6
 
-![](/Capture.png)
+![](/Capture.PNG)
 
 
 ## day.7
-![]](/my-crops.png)
+![](/my-crops.png)
 
 day.8
 
