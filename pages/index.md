@@ -43,6 +43,7 @@ im choping some wood so
 
 
 ## day.6
+these are my new tools
 
 ![](/Capture.PNG)
 
