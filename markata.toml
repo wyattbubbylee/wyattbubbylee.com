@@ -32,7 +32,7 @@ edit = false
 hooks = [
    "markata.plugins.publish_source",
    "markata.plugins.prevnext",
-   "markata.plugins.service_worker",
+#    "markata.plugins.service_worker",
     "default"
 ]
 
