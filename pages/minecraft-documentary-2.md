@@ -11,3 +11,8 @@ Day 0
 
   on day 0 i qickly setup a base
 
+achivevments
+* bed
+
+
+
