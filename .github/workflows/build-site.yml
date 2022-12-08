@@ -41,6 +41,5 @@ jobs:
           # you can choose the target branch of your choice
           target_branch: prod-markata
           build_dir: markout
-          commit_message: Deploy to GitHub pages [skip ci]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
