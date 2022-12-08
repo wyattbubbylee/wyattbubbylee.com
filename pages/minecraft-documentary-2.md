@@ -7,6 +7,16 @@ tags:
 
 ---
 
-## Day 0
+Day 0
 
 i quickly setup a base and then it became night so i went to sleep
+
+
+
+day 1
+
+  on day 1  i got some  new iron tools
+
+
+
+  ![](/tools.PNG)
