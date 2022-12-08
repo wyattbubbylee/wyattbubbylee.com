@@ -9,3 +9,4 @@ tags:
 
 ## Day 0
 
+i quickly setup a base and then it became night so i went to sleep
