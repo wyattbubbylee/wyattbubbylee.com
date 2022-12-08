@@ -9,3 +9,8 @@ tags:
 ---
 
 Hi I'm Wyatt
+
+
+
+check [my dad's](https://waylonwalker.com/minecraft-documentary) Minecraft Documentary out
+
