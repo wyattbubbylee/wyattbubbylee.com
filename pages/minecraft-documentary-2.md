@@ -9,14 +9,5 @@ tags:
 
 Day 0
 
-i quickly setup a base and then it became night so i went to sleep
+  on day 0 i qickly setup a base
 
-
-
-day 1
-
-  on day 1  i got some  new iron tools
-
-
-
-  ![](/tools.PNG)
