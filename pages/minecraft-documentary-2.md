@@ -14,6 +14,6 @@ Day 0
 
 achivevments
 * bed
-
+* diamonds
 
 
