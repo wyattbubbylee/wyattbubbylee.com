@@ -7,8 +7,6 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,11 +27,11 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: install markata
-        run: pip install markata
+      - name: install hatch
+        run: pip install hatch
 
       - name: build with markata
-        run: markata build
+        run: hatch run build
 
       - name: GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.0.0
