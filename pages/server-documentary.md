@@ -6,6 +6,7 @@ published: True
 ---
 
 day 1 a k a day2 i firstly started a minecraft server on version 1.20.1 ps here is my minecraft skin   
+and yes it is a Baked Bean skin
 
 ![Alt text](/idk.PNG)
 
