@@ -1,7 +1,7 @@
 ---
 date: 2023-07-09 1:00:00
 title: underground-documentary
-published: True
+published: true
 tags:
   - home
   - meta
@@ -10,7 +10,10 @@ tags:
 
 day 1 i started a minecraft world 
 my base then
-c:\Users\quadm\Downloads\2023-07-09_10.45.25.png
+
+![my base then](/2023-07-09_10.45.25.png)
+
 10 min later
 my base now
-c:\Users\quadm\Downloads\2023-07-09_11.02.06.png c:
+
+![my base now](/2023-07-09_11.02.06.png)
