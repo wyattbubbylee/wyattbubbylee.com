@@ -8,8 +8,18 @@ tags:
 
 ---
 
-Hi I'm Wyatt
+<style>
+em {
+rotate: 5deg;
+display: block;
+width: 250px;
+margin-left: auto;
+margin-right: 0;
+}
+</style>
 
+Hi I'm Wyatt
+i am a gamer/youtuber/good boi/ _...uh thats a lot_
 
 
 check [my dad's](https://waylonwalker.com/minecraft-documentary) Minecraft Documentary out
