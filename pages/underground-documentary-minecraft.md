@@ -1,19 +1,19 @@
 ---
 date: 2023-07-09 1:00:00
-title: underground-documentary
+title: ,minecraft-1.20.1-documentary
 published: true
 tags:
   - home
   - meta
 
 ---
-
-day 1 i started a minecraft world 
-my base then
-
-![my base then](/2023-07-09_10.45.25.png)
-
-10 min later
-my base now
-
-![my base now](/2023-07-09_11.02.06.png)
+my 1.20.1 goals are
+find a Smithing template
+find a Cherry blossom tree
+get a Pottery shard
+and defeat the Ender_dragon
+will I make it lets see
+here is my seed -588413630
+and i had bones chest on
+Day 0
+i killed some chickens :p
