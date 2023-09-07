@@ -44,7 +44,7 @@ disabled_hooks = [
 
 ## Site Config
 url = "https://wyatt.waylonwalker.com"
-description = "Wyatt's Minecraft Documentary"
+description = "wyatt's blog/webpage"
 title = "minecraft-documentary-wyatt"
 rss_description = "Wyatt's Minecraft Documentary"
 author_name = "Wyatt Walker"

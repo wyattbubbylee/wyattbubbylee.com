@@ -1,6 +1,6 @@
 ---
 date: 2022-09-01 1:00:00
-title: Wyatt's Minecraft Documentary
+title: wyatt's blog/webpage
 published: True
 tags:
   - home
