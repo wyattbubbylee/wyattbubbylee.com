@@ -31,7 +31,7 @@ edit = false
 # plugins to enable
 hooks = [
    "markata.plugins.publish_source",
-   "markata.plugins.prevnext",
+#   "markata.plugins.prevnext",
 #    "markata.plugins.service_worker",
     "default"
 ]
