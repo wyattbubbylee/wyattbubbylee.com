@@ -1,6 +1,6 @@
 ---
 date: 2022-09-01 1:00:00
-title: wyatt's blog/webpage
+title: wyatt's science webpage
 published: True
 tags:
   - home
@@ -16,6 +16,9 @@ width: 250px;
 margin-left: auto;
 margin-right: 0;
 }
+(/Periodic-table-science-poster-LAMINATED-chart-teaching-white-elements-classroom-decoration-premium-educators-atomic-numb-B07BDFHL38_1200x1200.webp)
+
+
 
 /* Define the linear gradient */
 h1 {
