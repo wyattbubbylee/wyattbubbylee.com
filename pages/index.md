@@ -16,9 +16,6 @@ width: 250px;
 margin-left: auto;
 margin-right: 0;
 }
-(/Periodic-table-science-poster-LAMINATED-chart-teaching-white-elements-classroom-decoration-premium-educators-atomic-numb-B07BDFHL38_1200x1200.webp)
-
-
 
 /* Define the linear gradient */
 h1 {
@@ -28,6 +25,8 @@ h1 {
 
 # Hi I'm Wyatt
 i am a gamer/youtuber/good boi/ _...uh thats a lot_
+
+(/Periodic-table-science-poster-LAMINATED-chart-teaching-white-elements-classroom-decoration-premium-educators-atomic-numb-B07BDFHL38_1200x1200.webp)
 
 
 check [my dad's](https://waylonwalker.com/minecraft-documentary) Minecraft Documentary out
