@@ -78,9 +78,6 @@ icon = "icon.png"
 # color_accent_light = '#ffeb00'
 # overlay_brightness_light = '.95'
 
-[markata.nav]
-minecraft-documentary='/'
-beastiary='/beastiary'
 
 [markata.prevnext]
 # strategy can be 'first' or 'all'
