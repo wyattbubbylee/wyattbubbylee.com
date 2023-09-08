@@ -24,10 +24,10 @@ h1 {
 </style>
 
 # Hi I'm Wyatt
-i am a gamer/youtuber/good boi/ _...uh thats a lot_
+i am a gamer/youtuber/good boi/>:) _..uh_
 
 ![Periodic-table](/Periodic-table-science-poster-LAMINATED-chart-teaching-white-elements-classroom-decoration-premium-educators-atomic-numb-B07BDFHL38_1200x1200.webp)
 
 
 check [my dad's](https://waylonwalker.com) webpage out
-
+check [my dev page out](https://dev.to/wyattbubbylee) 
