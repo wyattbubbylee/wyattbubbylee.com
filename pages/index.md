@@ -25,8 +25,9 @@ h1 {
 
 # Hi I'm Wyatt
 i am a gamer/youtuber/good boi/>:) _..uh_
-
-
+                                      import pygame
+my 1st program looked like this   import pygame
+                                  print("hello world")
 
 check [my dad's](https://waylonwalker.com) webpage out
 
