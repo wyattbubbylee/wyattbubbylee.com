@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+img, video {
+  @apply my-2;
+  @apply rounded-xl;
+  @apply border-green-500;
+  @apply border;
+  @apply mx-auto;
+  @apply shadow-2xl;
+  @apply shadow-[0_0_45px_5px_rgba(219,39,119,.2)];
+  @apply object-cover;
+}
+

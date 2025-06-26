@@ -1,6 +1,6 @@
 ---
 date: 2022-09-01 1:00:00
-title: wyatt's code adventure
+title: wyatt's blog
 published: True
 tags:
   - home
@@ -8,26 +8,18 @@ tags:
 
 ---
 
-<style>
-em {
-rotate: 5deg;
-display: block;
-width: 250px;
-margin-left: auto;
-margin-right: 0;
-}
+# wellcome to my blog of gaming 
+check out the archive of posts
+# games I play
 
-/* Define the linear gradient */
-h1 {
-  /** TEXT GRADIENT */ color: #30e5d3; background-image: -webkit-linear-gradient(0deg, #30e5d3 0%, #f9de4c 50%, #8417e0 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent; width: fit-content;
-}
-</style>
+[[ oxadent-date-widget ]]
 
-# Hi I'm Wyatt
-i am a gamer/youtuber/good boi/>:) _..uh_
-                                      import pygame
-my 1st program looked like this   import pygame
-                                  print("hello world")
+
+* Terraria
+* Tony hawk pro skater 1+2
+* Dont starve together 
+* Wobbly life
+
 
 check [my dad's](https://waylonwalker.com) webpage out
 

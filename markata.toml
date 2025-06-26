@@ -17,7 +17,7 @@ default_cache_expire = 1209600
 ## Markata Setup
 
 # Patterns to look for content
-glob_patterns = "pages/**/*.md"
+
 
 # include an edit link
 edit = false
@@ -81,6 +81,9 @@ icon = "icon.png"
 [markata.nav]
 'home' = '/'
 'main-projects' = '/archive'
+
+[markata.glob]
+glob_patterns = "pages/**/*.md"
 
 [markata.prevnext]
 # strategy can be 'first' or 'all'
@@ -216,36 +219,63 @@ content = "markata {{ __version__ }}"
 name = "theme-color"
 content="#322D39"
 
+[[markata.head.link]]
+# dynamically get the title for each page
+rel='stylesheet'
+href='/wyattbubbylee.css'
 
 ## markata.plugins.feeds configuration
 [[markata.feeds]]
-slug = 'archive'
 # creates a feed at /archive
-filter = "date<=today and post.get('published', False)"
-sort = "date"
+slug='archive'
+filter="date<=today and post.get('published', False)"
+sort="date"
+reverse=true
 
 [[markata.feeds]]
 # creates a feed at /all
-slug = 'all'
+slug='all'
 filter="True"
 sort="date"
+reverse=true
 
 [[markata.feeds]]
 # creates a feed at /published
-slug = 'published'
-filter = "date<=today and post.get('published', False)"
-sort = "date"
+slug='published'
+filter="date<=today and post.get('published', False)"
+sort="date"
+reverse=true
 
-[[markata.feed]]
+[[markata.feeds]]
 # creates a feed at /draft
-slug = 'draft'
-filter = "date>today or not post.get('published', False)"
-sort = "date"
+slug='draft'
+filter="date>today or not post.get('published', False)"
+sort="date"
+reverse=true
+# markdown_it flavor
+[markata.markdown_it_py]
+config = 'gfm-like'
+# markdown_it built-in plugins
+enable = ["table"]
 
-
+# add custom markdown_it plugins
 [[markata.markdown_it_py.plugins]]
 plugin = "mdit_py_plugins.admon:admon_plugin"
+config = { spans = true }
 
 [[markata.markdown_it_py.plugins]]
-plugin = "mdit_py_plugins.admon:admon_plugin"
+plugin = "mdit_py_plugins.attrs:attrs_block_plugin"
+
+[[markata.markdown_it_py.plugins]]
+plugin = "markata.plugins.mdit_details:details_plugin"
+
+[[markata.markdown_it_py.plugins]]
+plugin = "mdit_py_plugins.anchors:anchors_plugin"
+
+[[markata.markdown_it_py.plugins]]
+plugin = "markata.plugins.md_it_wikilinks:wikilinks_plugin"
+config = { markata = "markata" }
+
+[[markata.markdown_it_py.plugins]]
+plugin = "mdit_py_plugins.tasklists:tasklists_plugin"
 
