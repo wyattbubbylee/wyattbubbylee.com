@@ -78,6 +78,9 @@ icon = "icon.png"
 # color_accent_light = '#ffeb00'
 # overlay_brightness_light = '.95'
 
+[markata.nav]
+'home' = '/'
+'main-projects' = '/archive'
 
 [markata.prevnext]
 # strategy can be 'first' or 'all'
@@ -110,13 +113,24 @@ til="templateKey=='til' and date<=today and status != 'draft'"
 # dynamically get the title for each page
 value = "<title>{{ title|e }}</title>"
 
+[[markata.head.link]]
+# dynamically get the title for each page
+# value = '<link rel="stylesheet" href="/fonts.css">'
+rel = 'stylesheet'
+href = '/fonts.css'
+
+[[markata.head.meta]]
+name = "custom"
+# dynamically get the title for each page
+content = "my custom thing"
+
 [[markata.head.meta]]
 name = "twitter:title"
 # dynamically get the title for each page
 content = "{{ title|e }}"
 
 [[markata.head.meta]]
-name = "og:title"
+property = "og:title"
 # dynamically get the title for each page
 content = "{{ title|e }}"
 
@@ -126,7 +140,7 @@ name = "description"
 content = "{{ description|e }}"
 
 [[markata.head.meta]]
-name = "og:description"
+property = "og:description"
 # dynamically get the description for each page
 content = "{{ description|e }}"
 
@@ -137,31 +151,31 @@ content = "{{ description|e }}"
 
 
 [[markata.head.meta]]
-name = "og:type"
+property = "og:type"
 content = "article"
 
 [[markata.head.link]]
 # dynamically get the canonical url for each page
-href="{{ config.url }}/{{ slug }}/"
-rel="canonical"
+href = "{{ config.url }}/{{ slug }}/"
+rel = "canonical"
 
 [[markata.head.meta]]
 # dynamically get the canonical url for each page
-name="og:url"
-content="{{ config.url }}/{{ slug }}/"
+property = "og:url"
+content = "{{ config.url }}/{{ slug }}/"
 
 [[markata.head.meta]]
 # dynamically get the canonical url for each page
-name="og:image"
-content="{{ config.url }}/{{ slug }}.jpg"
+property = "og:image"
+content = "{{ config.url }}/{{ slug }}.jpg"
 
 [[markata.head.meta]]
-name="og:image:width"
-content=1200
+property = "og:image:width"
+content = "1200"
 
 [[markata.head.meta]]
-name="og:image:height"
-content=600
+property = "og:image:height"
+content = "600"
 
 
 # [[markata.head.meta]]
@@ -175,17 +189,17 @@ content="summary_large_image"
 
 
 [[markata.head.meta]]
-name = "og:author"
+property = "og:author"
 content = "Wyatt Walker"
 
 
 [[markata.head.meta]]
-name = "og:site_name"
+property = "og:site_name"
 content = "minecraft-documentary-wyatt"
 
 
 [[markata.head.meta]]
-name = "og:author_email"
+property = "og:author_email"
 content = "wyatt.lee.walker@gmail.com"
 
 
@@ -204,23 +218,34 @@ content="#322D39"
 
 
 ## markata.plugins.feeds configuration
-[markata.feeds.archive]
+[[markata.feeds]]
+slug = 'archive'
 # creates a feed at /archive
-filter="date<=today and post.get('published', False)"
-sort="date"
+filter = "date<=today and post.get('published', False)"
+sort = "date"
 
-[markata.feeds.all]
+[[markata.feeds]]
 # creates a feed at /all
+slug = 'all'
 filter="True"
 sort="date"
 
-[markata.feeds.published]
+[[markata.feeds]]
 # creates a feed at /published
-filter="date<=today and post.get('published', False)"
-sort="date"
+slug = 'published'
+filter = "date<=today and post.get('published', False)"
+sort = "date"
 
-[markata.feeds.draft]
+[[markata.feed]]
 # creates a feed at /draft
-filter="date>today or not post.get('published', False)"
-sort="date"
+slug = 'draft'
+filter = "date>today or not post.get('published', False)"
+sort = "date"
+
+
+[[markata.markdown_it_py.plugins]]
+plugin = "mdit_py_plugins.admon:admon_plugin"
+
+[[markata.markdown_it_py.plugins]]
+plugin = "mdit_py_plugins.admon:admon_plugin"
 
