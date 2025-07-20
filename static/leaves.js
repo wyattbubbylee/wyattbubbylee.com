@@ -6,7 +6,7 @@
     rotationSpeed: 2,
     spriteCount: 1,
     direction: 1,
-    ledfsdfs~fSize: 16,
+    leafSize: 16,
     spritePath: 'https://dropper.wayl.one/api/file/69e92e87-8b15-4cd7-b714-f40a5116afc8.png',
 
     spriteExt: '.png',
