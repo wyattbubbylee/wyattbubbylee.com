@@ -8,8 +8,8 @@ tags:
 
 ---
 
-# wellcome to my blog of gaming 
-check out the archive of posts
+# wellcome to my blog 
+
 # games I play
 
 [[ oxadent-date-widget ]]
