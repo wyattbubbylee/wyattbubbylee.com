@@ -116,6 +116,10 @@ til="templateKey=='til' and date<=today and status != 'draft'"
 # dynamically get the title for each page
 value = "<title>{{ title|e }}</title>"
 
+[[markata.head.script]]
+src='/leaves.js'
+defer=true
+
 [[markata.head.link]]
 # dynamically get the title for each page
 # value = '<link rel="stylesheet" href="/fonts.css">'
@@ -261,6 +265,9 @@ enable = ["table"]
 # add custom markdown_it plugins
 [[markata.markdown_it_py.plugins]]
 plugin = "mdit_py_plugins.admon:admon_plugin"
+
+[[markata.markdown_it_py.plugins]]
+plugin = "mdit_py_plugins.attrs:attrs_plugin"
 config = { spans = true }
 
 [[markata.markdown_it_py.plugins]]
