@@ -63,20 +63,47 @@ icon = "icon.png"
 # use a different template than the built in one
 # post_template = "pages/templates/post_template.html"
 
-## Color Theme
-# color_bg = '#1f2022'
+[markata.style]
+# theme = 'tokyo-night'
+# theme = 'catppuccin'
+# theme = 'everforest'
+# theme = 'gruvbox'
+# theme = 'kanagwa'
+theme = 'nord'
+# theme = 'synthwave-84'
+
+[markata.style.dark]
+# color_bg = 'bg-linear-to-r from-orange-600 via-amber-900 to-amber-950'
 # color_bg_code = '#1f2022'
 # color_text = '#eefbfe'
 # color_link = '#fb30c4' 
 # color_accent = '#e1bd00c9'
 # overlay_brightness = '.85'
-
 # color_bg_light = '#eefbfe'
 # color_bg_code_light = '#eefbfe'
 # color_text_light = '#1f2022'
 # color_link_light = '#47cbff' 
 # color_accent_light = '#ffeb00'
 # overlay_brightness_light = '.95'
+
+
+[markata.style.light]
+# text = "#14532d"
+# muted = "#22c55e"
+# heading = "#166534"
+# accent = "#16a34a"
+# accent_alt = "#84cc16"
+# background = "#f0fdf4"
+# surface = "#dcfce7"
+# code_bg = "#dcfce7"
+# blockquote_bg = "#bbf7d0"
+# blockquote_border = "#4ade80"
+# link_hover = "#166534"
+# selection_bg = "#bbf7d0"
+# selection_text = "#14532d"
+# border = "#86efac"
+# code_theme = "stata-light"
+
 
 [markata.nav]
 'home' = '/'
@@ -256,6 +283,7 @@ slug='draft'
 filter="date>today or not post.get('published', False)"
 sort="date"
 reverse=true
+
 # markdown_it flavor
 [markata.markdown_it_py]
 config = 'gfm-like'
