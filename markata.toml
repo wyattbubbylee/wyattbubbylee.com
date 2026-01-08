@@ -31,6 +31,7 @@ edit = false
 # plugins to enable
 hooks = [
    "markata.plugins.publish_source",
+   "markata.plugins.theme",
 #   "markata.plugins.prevnext",
 #    "markata.plugins.service_worker",
     "default"
@@ -63,28 +64,7 @@ icon = "icon.png"
 # use a different template than the built in one
 # post_template = "pages/templates/post_template.html"
 
-[markata.style]
-# theme = 'tokyo-night'
-# theme = 'catppuccin'
-# theme = 'everforest'
-# theme = 'gruvbox'
-# theme = 'kanagwa'
-theme = 'nord'
-# theme = 'synthwave-84'
 
-[markata.style.dark]
-# color_bg = 'bg-linear-to-r from-orange-600 via-amber-900 to-amber-950'
-# color_bg_code = '#1f2022'
-# color_text = '#eefbfe'
-# color_link = '#fb30c4' 
-# color_accent = '#e1bd00c9'
-# overlay_brightness = '.85'
-# color_bg_light = '#eefbfe'
-# color_bg_code_light = '#eefbfe'
-# color_text_light = '#1f2022'
-# color_link_light = '#47cbff' 
-# color_accent_light = '#ffeb00'
-# overlay_brightness_light = '.95'
 
 [markata.style]
 # theme = 'tokyo-night'
