@@ -1,0 +1,5 @@
+title:
+  type: str
+slug:
+  type: str
+  default: "{{ title.lower().replace(' ', '-') }}"

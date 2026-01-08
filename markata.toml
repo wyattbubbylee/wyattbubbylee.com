@@ -86,24 +86,14 @@ theme = 'nord'
 # color_accent_light = '#ffeb00'
 # overlay_brightness_light = '.95'
 
-
-[markata.style.light]
-# text = "#14532d"
-# muted = "#22c55e"
-# heading = "#166534"
-# accent = "#16a34a"
-# accent_alt = "#84cc16"
-# background = "#f0fdf4"
-# surface = "#dcfce7"
-# code_bg = "#dcfce7"
-# blockquote_bg = "#bbf7d0"
-# blockquote_border = "#4ade80"
-# link_hover = "#166534"
-# selection_bg = "#bbf7d0"
-# selection_text = "#14532d"
-# border = "#86efac"
-# code_theme = "stata-light"
-
+[markata.style]
+# theme = 'tokyo-night'
+# theme = 'catppuccin'
+theme = 'everforest'
+# theme = 'gruvbox'
+# theme = 'kanagwa'
+# theme = 'nord'
+# theme = 'synthwave-84'
 
 [markata.nav]
 'home' = '/'
