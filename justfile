@@ -1,7 +1,11 @@
 set dotenv-load := true
 
+default:
+  @just --choose
+
 serve:
   python -m http.server -d markout
+
 build:
   uvx --from 'git+https://github.com/waylonwalker/markata@image-zoom' markata clean
   uvx --from 'git+https://github.com/waylonwalker/markata@image-zoom' markata build
