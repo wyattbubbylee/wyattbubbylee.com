@@ -30,6 +30,7 @@ edit = false
 
 # plugins to enable
 hooks = [
+   "plugins.steam_achievements",
    "markata.plugins.publish_source",
    "markata.plugins.theme",
 #   "markata.plugins.prevnext",
@@ -64,7 +65,10 @@ icon = "icon.png"
 # use a different template than the built in one
 # post_template = "pages/templates/post_template.html"
 
-
+# Requires a Steam Web API key from https://steamcommunity.com/dev/apikey
+[markata.steam_achievements]
+api_key = "${STEAM_API_KEY}"
+steam_id = "${STEAM_ID}"
 
 [markata.style]
 # theme = 'tokyo-night'
@@ -77,7 +81,8 @@ theme = 'everforest'
 
 [markata.nav]
 'home' = '/'
-'main-projects' = '/archive'
+'main-projects' = '/archive/'
+'achievements' = '/steam/'
 
 [markata.glob]
 glob_patterns = "pages/**/*.md"
@@ -283,4 +288,13 @@ config = { markata = "markata" }
 
 [[markata.markdown_it_py.plugins]]
 plugin = "mdit_py_plugins.tasklists:tasklists_plugin"
+
+[[markata.feeds]]
+title = 'Steam Games'
+slug = 'steam'
+filter = "'steam-game' in tags"
+sort = "date"
+reverse = true
+description = 'A feed of my steam games and their achievements progress'
+card_template='steam-game-card.html'
 
