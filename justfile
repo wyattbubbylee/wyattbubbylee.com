@@ -3,8 +3,8 @@ set dotenv-load := true
 def:
   @just --choose
 
-s:
-  python -m http.server -d markout
+s port="8000":
+  python -m http.server -d markout {{port}}
 
 g:
   uvx --from 'git+https://github.com/waylonwalker/markata@image-zoom' markata steam-games
