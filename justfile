@@ -1,22 +1,23 @@
 set dotenv-load := true
 
-default:
+def:
   @just --choose
 
-serve:
+s:
   python -m http.server -d markout
 
-build:
+g:
+  uvx --from 'git+https://github.com/waylonwalker/markata@image-zoom' markata steam-games
+
+b:
   uvx --from 'git+https://github.com/waylonwalker/markata@image-zoom' markata clean
   uvx --from 'git+https://github.com/waylonwalker/markata@image-zoom' markata build
-b:
-  markata clean
-  markata build
 
-deploy:
+d:
   npx wrangler pages deploy markout --project-name wyattbubbylee-com --branch prod-markata
-tailwind:
+
+tw:
   npx tailwindcss --input tailwind/app.css --output static/wyattbubbylee.css
 
-new-post:
+np:
   uvx copier copy page-templates/blog .
